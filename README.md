@@ -8,19 +8,16 @@ There is no need to create a fancy UI. Just a simple form with the above 4 field
 2. Display the data using a get request (after insertion into the table) from the database in a table format just below the Form.
 The table should look something like this :
 ![image](https://user-images.githubusercontent.com/41207686/214456455-d8f296cc-7a57-4077-b77d-8295e845a264.png)
+Make each row clickable and it should open in a new page. We should be able to update data for that particular row( PUT request) and delete the row(DELETE request) and the changes should be reflected in the main table when we come back to that page.
 
-3. Create a pdf document(downloadable) on click of a button which displays the above table.
-Use the below image as a reference and where in part a you should have your name and roll number and in part b you will display the heading and data in columns for the four fields.
-![image](https://user-images.githubusercontent.com/41207686/214457974-3ac22b86-806d-4a12-9d52-6caf7f865f26.png)
-
-
+3. Add two buttons below the above table named as 'Download as PDF' and 'Download as Excel' respectively. As the name of buttons say, we should be able to download the data in pdf and excel formats.
 
 -----------------------------------------------------------------
 
 You can push your code in this repository and maintain 2 different folders for the frontend and backend part. You can build the frontend part of the application using Angular or React and the backend part using Node.js. Along with the code please make a separate folder which would contain screenshots (of your running application) that you would take after completing each part.
 ----------------------------------------------------------------
 
-NOTE: The above image is just for reference how the pdf document should look. Instead of column names like patient name , health# just use the name of the fields you used above.
+NOTE: The above image is just for reference how the table should look.
 ----------------------------------------------------------------
 
 If you have any doubts or need further information regarding the assignment you can email me at hanishkrchander@gmail.com
