@@ -1,5 +1,4 @@
 # testAssignment
-An assignment to test a candidate
 
 There are 3 parts in this assignment.
 
