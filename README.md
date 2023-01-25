@@ -12,7 +12,8 @@ The table should look something like this :
 
 3. Create a pdf document(downloadable) on click of a button which displays the above table.
 Use the below image as a reference and where in part a you should have your name and roll number and in part b you will display the heading and data in columns for the four fields.
-![image](https://user-images.githubusercontent.com/41207686/214454807-a57371d3-a647-430e-80e5-79ba3f72fe62.png)
+![image](https://user-images.githubusercontent.com/41207686/214457974-3ac22b86-806d-4a12-9d52-6caf7f865f26.png)
+
 
 
 -----------------------------------------------------------------
