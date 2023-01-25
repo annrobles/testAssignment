@@ -10,7 +10,7 @@ The table should look something like this :
 ![image](https://user-images.githubusercontent.com/41207686/214456455-d8f296cc-7a57-4077-b77d-8295e845a264.png)
 Make each row clickable and it should open in a new page. We should be able to update data for that particular row( PUT request) and delete the row(DELETE request) and the changes should be reflected in the main table when we come back to that page.
 
-3. Add two buttons below the above table named as 'Download as PDF' and 'Download as Excel' respectively. As the name of buttons say, we should be able to download the data in pdf and excel formats.
+3. Add two buttons below the above table named as 'Download as PDF' and 'Download as Excel' respectively. As the name of buttons say, we should be able to download the table data in pdf and excel formats.
 
 -----------------------------------------------------------------
 
