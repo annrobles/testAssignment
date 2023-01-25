@@ -18,5 +18,7 @@ Use the below image as a reference and where in part a you should have your name
 -----------------------------------------------------------------
 
 You can push your code in this repository and maintain 2 different folders for the frontend and backend part. You can build the frontend part of the application using Angular or React and the backend part using Node.js. Along with the code please make a separate folder which would contain screenshots (of your running application) that you would take after completing each part.
+----------------------------------------------------------------
+
 NOTE: The above image is just for reference how the pdf document should look. Instead of column names like patient name , health# just use the name of the fields you used above.
 
