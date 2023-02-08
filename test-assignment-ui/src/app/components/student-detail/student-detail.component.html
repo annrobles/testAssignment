@@ -1,0 +1,42 @@
+<p-card styleClass="user-form" class="flex justify-content-center">
+  <form [formGroup]="studentForm" (ngSubmit)="onSave()" novalidate>
+    <div class="field">
+      <label for="name" class="block">Name</label>
+      <input type="text" pInputText placeholder="Name" formControlName="name" />
+      <small class="p-error block" *ngIf="
+          studentForm.get('name')?.invalid && studentForm.get('name')?.dirty
+        ">
+        Name is required</small>
+    </div>
+
+    <div class="field">
+      <label for="email" class="block">Email</label>
+      <input type="text" pInputText placeholder="Email" formControlName="email" />
+      <small class="p-error block" *ngIf="
+        studentForm.get('email')?.invalid && studentForm.get('email')?.dirty && studentForm.get('email')?.value  == ''
+      ">
+        Email is required
+      </small>
+      <small class="p-error block" *ngIf="
+        studentForm.get('email')?.invalid && studentForm.get('email')?.dirty && studentForm.get('email')?.value  != ''
+      ">
+        Enter a valid email
+      </small>
+    </div>
+
+    <div class="field">
+      <label for="phone_number" class="block">Phone Number</label>
+      <input type="text" pInputText placeholder="Phone Number" formControlName="phone_number" />
+      <small class="p-error block" *ngIf="
+          studentForm.get('phone_number')?.invalid && studentForm.get('phone_number')?.dirty
+        ">
+        Phone Number is required
+      </small>
+    </div>
+
+    <div class="form-buttons">
+      <button pButton type="submit" label="Back To List" (click)="viewStudents()"></button>
+      <button pButton type="submit" label="Submit" [disabled]="studentForm.invalid"></button>
+    </div>
+  </form>
+</p-card>
